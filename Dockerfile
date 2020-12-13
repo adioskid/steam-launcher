@@ -12,6 +12,6 @@ RUN add-apt-repository ppa:graphics-drivers/ppa
 RUN apt-get install -y -q nvidia-driver-455
 RUN apt-get install -y steam
 RUN apt-get install -y pulseaudio-utils
-RUN apt-get install -y libnm-glib4:i386 libnm-util2:i386 pciutils psmisc
+RUN apt-get install -y pciutils psmisc
 COPY steam.sh /root/steam.sh
 CMD [ '/bin/bash' ]
