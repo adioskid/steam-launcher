@@ -3,7 +3,7 @@ ENV NVIDIA_DRIVER_CAPABILITIES all
 ENV DEBIAN_FRONTEND noninteractive
 RUN dpkg --add-architecture i386
 RUN apt-get update
-RUN apt-get install -y x11-apps:i386 mesa-utils:i386 libgl1-mesa-glx:i386 libcanberra-gtk-module:i386 pulseaudio dbus-x11
+RUN apt-get install -y x11-apps mesa-utils libgl1-mesa-glx:i386 libcanberra-gtk-module:i386 pulseaudio dbus-x11
 RUN apt-get install -y software-properties-common
 RUN apt-get install -y kmod locales
 RUN locale-gen en_US.UTF-8
