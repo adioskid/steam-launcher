@@ -1,2 +1,2 @@
 #!/bin/bash
-docker image build -t funtoolinux/steam-nvidia-ubuntu18:1.6 .
+docker image build -t funtoolinux/steam-nvidia-ubuntu20:1.9.0.
