@@ -9,4 +9,4 @@ exec nvidia-docker run \
 	--privileged \
 	-v /run/user/${UID}/pulse:/run/user/1000/pulse \
 	-e PULSE_SERVER=unix:/run/user/1000/pulse/native \
-	adioskid/steam-nvidia-ubuntu18:1.1
+	adioskid/steam-nvidia-ubuntu20:1.1
